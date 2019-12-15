@@ -73,14 +73,14 @@ class Calculator extends Component
           <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.three}>3</button></td>
         </tr>
         <tr>
-          <td><button class="myclass" type="button">4</button></td>
-          <td><button class="myclass" type="button">5</button></td>
-          <td><button class="myclass" type="button">6</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.four}>4</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.five}>5</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.six}>6</button></td>
         </tr>
         <tr>
-          <td><button class="myclass" type="button">7</button></td>
-          <td><button class="myclass" type="button">8</button></td>
-          <td><button class="myclass" type="button">9</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.seven}>7</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.eight}>8</button></td>
+          <td><button class="myclass" type="button" onClick={this.onClickHandler.bind(this)}  value={this.state.nine}>9</button></td>
         </tr>
         <tr>
         <td><button class="myclass" type="button" value="+" onClick={this.onClickHandler.bind(this)}>+</button></td>
