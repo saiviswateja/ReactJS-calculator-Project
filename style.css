@@ -1,0 +1,9 @@
+h1, p {
+  font-family: Lato;
+}
+
+.myclass{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
